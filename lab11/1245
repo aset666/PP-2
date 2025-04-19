@@ -1,0 +1,6 @@
+update phonebook
+set phone='8' || substring (phone from 3)
+where phone like '+7%' or phone like '7%'
+       
+    
+
