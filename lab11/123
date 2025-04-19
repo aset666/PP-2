@@ -1,0 +1,7 @@
+SELECT * FROM phonebook
+WHERE phone LIKE '9%'
+ORDER BY first_name;
+
+SELECT * FROM phonebook
+WHERE first_name LIKE 'S%'
+ORDER BY last_name;
