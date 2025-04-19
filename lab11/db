@@ -1,0 +1,15 @@
+-- Посмотреть таблицы
+\dt
+
+-- Посмотреть записи
+SELECT * FROM phonebook;
+
+-- Добавить запись
+INSERT INTO phonebook (first_name, last_name, phone)
+VALUES ('Test', 'User', '87001234567');
+
+-- Обновить запись
+UPDATE phonebook SET first_name = 'Updated' WHERE phone = '87001234567';
+
+-- Удалить запись
+DELETE FROM phonebook WHERE phone = '87001234567';
