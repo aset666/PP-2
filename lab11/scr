@@ -1,0 +1,2 @@
+SELECT * FROM phonebook
+WHERE phone LIKE '7%7';
